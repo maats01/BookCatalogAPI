@@ -18,18 +18,18 @@ BookCatalog é uma API REST simples feita com ASP.NET Core para gerenciamento de
 
 ## Executando a aplicação
 
-1. Clonar o repositório:
+### 1. Clonar o repositório
 ```bash
 git clone https://github.com/maats01/BookCatalogAPI.git
 ```
 
-2. Executar o projeto:
+### 2. Executar o projeto
 O projeto pode ser executado pelo Visual Studio (CTRL + F5, com o projeto aberto) ou por terminal usando o seguinte comando:
 ```bash
 dotnet run
 ```
 
-3. Testando a API:
+### 3. Testando a API
 Após executar o projeto e o servidor estiver funcionando, a API vai estar disponível para testes em:
 ```
 http://localhost:5201/
