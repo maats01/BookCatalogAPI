@@ -36,8 +36,6 @@ dotnet restore
 dotnet build
 ```
 
-Ou, abra o projeto no Visual Studio e utilize o **gerenciador de pacotes NuGet** para instalar o pacote **Swashbuckle.AspNetCore**.
-
 ### 3. Executar o projeto
 O projeto pode ser executado pelo Visual Studio (CTRL + F5, com o projeto aberto) ou por terminal usando o seguinte comando:
 ```bash
