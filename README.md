@@ -23,13 +23,21 @@ BookCatalog é uma API REST simples feita com ASP.NET Core para gerenciamento de
 git clone https://github.com/maats01/BookCatalogAPI.git
 ```
 
-### 2. Executar o projeto
+### 2. Instalar o pacote do Swagger
+Com o terminal aberto e dentro do diretório da aplicação, execute:
+```bash
+dotnet add package Swashbuckle.AspNetCore
+```
+
+Ou, dentro do Visual Studio, utilize o *gerenciador de pacotes NuGet* e instale o pacote Swashbuckle.AspNetCore.
+
+### 3. Executar o projeto
 O projeto pode ser executado pelo Visual Studio (CTRL + F5, com o projeto aberto) ou por terminal usando o seguinte comando:
 ```bash
 dotnet run
 ```
 
-### 3. Testar a API
+### 4. Testar a API
 Após executar o projeto e o servidor estiver funcionando, a API vai estar disponível para testes em:
 ```
 http://localhost:5201/
