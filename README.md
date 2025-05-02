@@ -35,10 +35,12 @@ Após executar o projeto e o servidor estiver funcionando, a API vai estar dispo
 http://localhost:5201/
 ```
 
-Para ter uma visão mais interativa e os exemplos de requisição e resposta, você pode acessar a interface do Swagger pela URL:
+Também é possível testar a aplicação utilizando a interface do Swagger, disponível em:
 ```
 http://localhost:5201/swagger
 ```
+
+No Swagger, você pode testar todos os endpoints de forma interativa, visualizando as especificações da API e os exemplos de requisição/resposta.
 
 Para testar os endpoints `POST` e `PUT`, envie um corpo JSON seguindo o exemplo abaixo (via Postman, cURL ou outro client HTTP):
 ```
