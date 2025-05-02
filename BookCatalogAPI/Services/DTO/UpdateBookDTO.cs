@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace BookCatalogAPI.Services.DTO
 {
@@ -7,6 +8,7 @@ namespace BookCatalogAPI.Services.DTO
         /// <summary>
         /// Identificador único do livro.
         /// </summary>
+        [SwaggerIgnore]
         public int Id { get; set; }
 
         /// <summary>

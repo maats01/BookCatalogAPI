@@ -75,7 +75,7 @@ namespace BookCatalogAPI.Controllers
         /// </returns>
 
         [HttpPut("api/books/{id}")]
-        public IActionResult Update(int id, [FromBody] UpdateBookDTO updateDTO)
+        public IActionResult Update([FromRoute] int id, [FromBody] UpdateBookDTO updateDTO)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
