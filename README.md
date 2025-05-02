@@ -35,7 +35,7 @@ Após executar o projeto e o servidor estiver funcionando, a API vai estar dispo
 http://localhost:5201/
 ```
 
-Para testes, pode ser usado cURL ou Postman, enviando um JSON como corpo de requisição para recursos POST e PUT, contendo o seguinte formato:
+Para testar os endpoints `POST` e `PUT`, envie um corpo JSON seguindo o exemplo abaixo (via Postman, cURL ou outro client HTTP):
 ```
 {
   "title": "O Senhor dos Anéis",
