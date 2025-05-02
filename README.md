@@ -38,9 +38,14 @@ dotnet run
 ```
 
 ### 4. Testar a API
-Após executar o projeto e o servidor estiver funcionando, a API vai estar disponível para testes em http://localhost:5201.
-
-Também é possível testar a aplicação utilizando a interface do Swagger, disponível em http://localhost:5201/swagger.
+Após executar o projeto e o servidor estiver funcionando, a API vai estar disponível para testes em:
+```url
+http://localhost:5201
+```
+Também é possível testar a aplicação utilizando a interface do Swagger, disponível em:
+```url
+http://localhost:5201/swagger
+```
 
 Pela interface do Swagger, você pode testar todos os endpoints de forma interativa, visualizando as especificações da API e os exemplos de requisição/resposta.
 
