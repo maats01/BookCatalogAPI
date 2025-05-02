@@ -17,6 +17,11 @@ BookCatalog é uma API REST simples feita com ASP.NET Core para gerenciamento de
 - Swagger
 - Visual Studio
 
+## Requisítos
+
+- [.NET SDK 9](https://dotnet.microsoft.com/pt-br/download/dotnet/9.0)
+- Visual Studio (opcional)
+
 ## Executando a aplicação
 
 ### 1. Clonar o repositório
@@ -24,10 +29,12 @@ BookCatalog é uma API REST simples feita com ASP.NET Core para gerenciamento de
 git clone https://github.com/maats01/BookCatalogAPI.git
 ```
 
-### 2. Instalar o pacote do Swagger
+### 2. Instalar dependências
 Com o terminal aberto e dentro do diretório da aplicação, execute:
 ```bash
-dotnet add package Swashbuckle.AspNetCore
+dotnet restore
+dotnet build
+dotnet run
 ```
 
 Ou, abra o projeto no Visual Studio e utilize o **gerenciador de pacotes NuGet** para instalar o pacote **Swashbuckle.AspNetCore**.
