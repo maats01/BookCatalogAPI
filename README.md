@@ -20,7 +20,7 @@ BookCatalog é uma API REST simples feita com ASP.NET Core para gerenciamento de
 ## Requisítos
 
 - [.NET SDK 9](https://dotnet.microsoft.com/pt-br/download/dotnet/9.0)
-- Visual Studio (opcional)
+- [Visual Studio](https://visualstudio.microsoft.com/) (opcional)
 
 ## Executando a aplicação
 
