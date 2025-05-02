@@ -29,7 +29,7 @@ O projeto pode ser executado pelo Visual Studio (CTRL + F5, com o projeto aberto
 dotnet run
 ```
 
-### 3. Testando a API
+### 3. Testar a API
 Após executar o projeto e o servidor estiver funcionando, a API vai estar disponível para testes em:
 ```
 http://localhost:5201/
