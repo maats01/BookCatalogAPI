@@ -29,7 +29,7 @@ Com o terminal aberto e dentro do diretório da aplicação, execute:
 dotnet add package Swashbuckle.AspNetCore
 ```
 
-Ou, dentro do Visual Studio, utilize o **gerenciador de pacotes NuGet** e instale o pacote **Swashbuckle.AspNetCore**.
+Ou, abra o projeto no Visual Studio e utilize o **gerenciador de pacotes NuGet** para instalar o pacote **Swashbuckle.AspNetCore**.
 
 ### 3. Executar o projeto
 O projeto pode ser executado pelo Visual Studio (CTRL + F5, com o projeto aberto) ou por terminal usando o seguinte comando:
