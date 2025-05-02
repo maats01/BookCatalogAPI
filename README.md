@@ -18,7 +18,7 @@ BookCatalog é uma API REST simples feita com ASP.NET Core para gerenciamento de
 
 ## Executando a aplicação
 
-1. Clone o repositório:
+1. Clonar o repositório:
 ```bash
 git clone https://github.com/maats01/BookCatalogAPI.git
 ```
