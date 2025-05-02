@@ -34,3 +34,12 @@ Após executar o projeto e o servidor estiver funcionando, a API vai estar dispo
 ```
 http://localhost:5201/
 ```
+
+Para testes, pode ser usado cURL ou Postman, enviando um corpo de requisição do tipo JSON para POST e PUT, contendo o seguinte formato:
+```
+{
+  "title": "O Senhor dos Anéis",
+  "author": "J.R.R. Tolkien",
+  "yearPublished": 1954
+}
+```
