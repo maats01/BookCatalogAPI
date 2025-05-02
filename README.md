@@ -34,7 +34,6 @@ Com o terminal aberto e dentro do diretório da aplicação, execute:
 ```bash
 dotnet restore
 dotnet build
-dotnet run
 ```
 
 Ou, abra o projeto no Visual Studio e utilize o **gerenciador de pacotes NuGet** para instalar o pacote **Swashbuckle.AspNetCore**.
