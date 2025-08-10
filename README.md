@@ -2,6 +2,9 @@
 
 BookCatalog é uma API REST simples feita com ASP.NET Core para gerenciamento de um catálogo de livros (armazenados em memória), com o objetivo de compreender os princípios de uma API REST.
 
+<img width="1468" height="917" alt="image" src="https://github.com/user-attachments/assets/aca69150-7a02-4fa4-aeaa-5046f9e62cb7" />
+
+
 ## Funcionalidades
 
 - Listar todos os livros (`GET /api/books`)
